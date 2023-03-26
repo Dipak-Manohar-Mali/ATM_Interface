@@ -9,17 +9,14 @@ AccountHolder ach=new AccountHolder();
 
 static ArrayList<String> make=new ArrayList<>();
 
-// BankTransaction ()
-// {
 
-// }
 
 
 public static void History(String str)
 {
 
     make.add(str);
-    System.out.println(make);
+    
     
     
 }

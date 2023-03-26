@@ -15,8 +15,7 @@ class Account{
     
 
     public String accType="Saving Account",accNumber;
-    // private Double bal=1000.00;          //it's bal continue with constructor
-    // private Double bal1;
+
 
 
 AccountHolder ac=new AccountHolder();
@@ -25,9 +24,6 @@ BankTransaction bt=new BankTransaction();
     Scanner sc1=new Scanner(System.in);
     BankAtm batm=new BankAtm();
 
-// public Account(){
-
-// }
     
     public  Double CheckBal()
     {

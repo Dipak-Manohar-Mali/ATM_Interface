@@ -29,10 +29,10 @@ System.out.println("Wellcome to "+name+ " ATm Machine\n");
 
 
 String b=bn.MakeUid();
-System.out.println(b);
+// System.out.println(b);
 
 
-String kt=sc.nextLine();
+
 System.out.println("user ID "+b);
 String id=sc.nextLine();
 
@@ -64,13 +64,16 @@ if(pin.equals(a) && id.equals(b))
             
         } catch (NoSuchElementException e) {
            System.out.println(e);
+        }catch(Exception e)
+        {
+            System.out.println(e);
         }
         
     }
         
     
     switch (ch) {
-
+    
         case 0:
         dh=0;
         System.out.println("Log out from The account");
