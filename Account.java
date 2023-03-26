@@ -38,8 +38,8 @@ BankTransaction bt=new BankTransaction();
     public Double Withdraw()
     {
         
-        // n++;
-        sec=0;
+        
+       
         chBal=CheckBal();
         System.out.println("Enter the withdraw money: ");
         k=sc1.nextInt();
@@ -68,14 +68,13 @@ BankTransaction bt=new BankTransaction();
 
     public Double Deposite()
     {
-        int i=0;
-        sec=1;
+        
         System.out.println("Enter the the Deposite Amount");
         int abc=-1;
         
         amt=sc1.nextDouble();
         if(amt>0){
-            n++;
+            
             Bal+=amt;
             ac.setBal(Bal);
        
@@ -94,15 +93,10 @@ BankTransaction bt=new BankTransaction();
     
 
 
-    // public int RetunrToMenue(){
-    //     System.out.println("Enter any number to return to the main menu Or Enter 6-For Exit");
-    //     t=sc.nextInt();
-    //     return t;
-    // }
+    
 
     public void transfer(){
-        int i=0;
-        sec=2;
+        
         System.out.println("Enter the Transfer Amount");
          tamt=sc1.nextInt();
         double chBal=CheckBal();
@@ -137,7 +131,7 @@ BankTransaction bt=new BankTransaction();
             System.out.println("You can't Transfer Money Because You don't have suffecint Balance at The Time,Please Kindly Check Your Balnce,Thank you");
     
         }
-    // sc1.close();
+    
   
     }
 
